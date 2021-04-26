@@ -1,0 +1,10 @@
+OnlineRetail.csv is derived from the Online Retail Data Set of the UCI Machine Learning Repository
+
+Source: http://archive.ics.uci.edu/ml/datasets/online+retail
+
+The following modifications have been made to the data in preparation for this assignment
+-Removed transactions with no customer number
+-Removed all but 35 unique items with a preference for commonly purchased items
+-Removed all but the top 473 customers by number of purchases
+-Removed purchases with quantity >=10
+-Reformatted the remaining information
